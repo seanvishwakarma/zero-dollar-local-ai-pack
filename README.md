@@ -15,6 +15,7 @@
 ## ☕ Support Independent $0 Developer Research
 If this project helped you cancel your $20/month AI subscriptions or avoid cloud bills, consider supporting our ongoing benchmark hardware lab:
 - ⚡ **[Get the $1.00 Companion Pack on Ko-fi (Instant ZIP Download)](https://ko-fi.com/s/124024c020)**
+- 🛠️ **[Get a $1 Custom Modelfile Tuned to Your Exact Laptop](https://ko-fi.com/seanvishwakarma/commissions?commissionAlias=ab52a6dbd0)** — send your CPU, GPU/VRAM, RAM and target model; receive a tailored Modelfile plus runtime flags within 24 hours
 - 💳 **[Direct $1.00 PayPal Tip (Instant Settlement)](https://www.paypal.com/paypalme/seanvishwakarma/1USD)**
 - ☕ **[Creator Profile on Ko-fi (@thezerodollardev)](https://ko-fi.com/thezerodollardev)**
 
