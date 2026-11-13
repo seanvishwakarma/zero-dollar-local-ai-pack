@@ -1,0 +1,12 @@
+# The Zero-Dollar Dev: Google Gemma-2-9B (Q5_K_M Balanced)
+# Tuned for: 16GB RAM systems
+
+FROM gemma2:9b
+
+PARAMETER temperature 0.6
+PARAMETER top_p 0.90
+PARAMETER repeat_penalty 1.15
+PARAMETER num_ctx 8192
+PARAMETER num_predict 2048
+
+SYSTEM """You are a helpful and precise technical writing and development assistant."""

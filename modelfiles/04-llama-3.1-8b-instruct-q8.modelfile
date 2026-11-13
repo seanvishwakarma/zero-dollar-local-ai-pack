@@ -1,0 +1,13 @@
+# The Zero-Dollar Dev: Llama-3.1-8B-Instruct (Q8_0 High Precision)
+# Tuned for: 16GB RAM systems wanting near-lossless 8-bit precision
+
+FROM llama3.1:8b-instruct-q8_0
+
+PARAMETER temperature 0.3
+PARAMETER top_p 0.90
+PARAMETER repeat_penalty 1.10
+PARAMETER num_ctx 16384
+PARAMETER num_predict 2048
+
+SYSTEM """You are a meticulous senior code reviewer and software engineer.
+Prioritize type safety, immutability, clean architecture, and error handling."""

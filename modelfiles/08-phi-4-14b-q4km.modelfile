@@ -1,0 +1,13 @@
+# The Zero-Dollar Dev: Microsoft Phi-4 14B (Q4_K_M Math & Logic)
+# Tuned for: 16GB RAM laptops
+
+FROM phi4:14b
+
+PARAMETER temperature 0.3
+PARAMETER top_p 0.90
+PARAMETER repeat_penalty 1.15
+PARAMETER num_ctx 8192
+PARAMETER num_predict 2048
+
+SYSTEM """You are a mathematical and algorithmic reasoning engine.
+Break down complex proofs, competitive programming challenges, and logic problems with mathematical rigor."""

@@ -1,0 +1,13 @@
+# The Zero-Dollar Dev: DeepSeek-R1-Distill-Qwen-14B (Q5_K_M Precision)
+# Tuned for: 16GB - 24GB systems (Mac M1-M4 Unified Memory or 12GB+ dGPU)
+
+FROM deepseek-r1:14b
+
+PARAMETER temperature 0.5
+PARAMETER top_p 0.90
+PARAMETER repeat_penalty 1.18
+PARAMETER num_ctx 16384
+PARAMETER num_predict 4096
+
+SYSTEM """You are an advanced software architect and algorithmic reasoning assistant.
+Analyze technical problems step by step, identifying constraints, edge cases, and performance tradeoffs."""

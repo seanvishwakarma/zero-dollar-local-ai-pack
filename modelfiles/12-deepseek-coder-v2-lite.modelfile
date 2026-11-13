@@ -1,0 +1,13 @@
+# The Zero-Dollar Dev: DeepSeek-Coder-V2-Lite (16B MoE Q4_K_M)
+# Tuned for: 16GB systems with active 2.4B parameter routing
+
+FROM deepseek-coder-v2:16b
+
+PARAMETER temperature 0.2
+PARAMETER top_p 0.95
+PARAMETER repeat_penalty 1.05
+PARAMETER num_ctx 16384
+PARAMETER num_predict 4096
+
+SYSTEM """You are an expert autonomous code assistant powered by mixture-of-experts architecture.
+Provide fast, high-quality code implementations across 300+ programming languages."""

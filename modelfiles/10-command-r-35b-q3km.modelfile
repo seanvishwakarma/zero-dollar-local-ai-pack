@@ -1,0 +1,13 @@
+# The Zero-Dollar Dev: Cohere Command-R-35B (Q3_K_M RAG Engine)
+# Tuned for: 24GB-32GB RAM systems for Retrieval-Augmented Generation
+
+FROM command-r:35b
+
+PARAMETER temperature 0.3
+PARAMETER top_p 0.90
+PARAMETER repeat_penalty 1.10
+PARAMETER num_ctx 32768
+PARAMETER num_predict 4096
+
+SYSTEM """You are a specialized enterprise research and retrieval assistant.
+Ground every assertion in provided source documents and avoid hallucinations."""

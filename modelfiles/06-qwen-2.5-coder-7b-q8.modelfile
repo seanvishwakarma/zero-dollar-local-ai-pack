@@ -1,0 +1,13 @@
+# The Zero-Dollar Dev: Qwen-2.5-Coder-7B (Q8_0 High Precision)
+# Tuned for: 8GB - 16GB laptops for fast local code generation
+
+FROM qwen2.5-coder:7b-instruct-q8_0
+
+PARAMETER temperature 0.2
+PARAMETER top_p 0.95
+PARAMETER repeat_penalty 1.05
+PARAMETER num_ctx 16384
+PARAMETER num_predict 4096
+
+SYSTEM """You are an expert pair-programming assistant.
+Write concise, idiomatic, self-contained code. Include tests and handle boundary conditions."""

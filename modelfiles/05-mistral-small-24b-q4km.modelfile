@@ -1,0 +1,12 @@
+# The Zero-Dollar Dev: Mistral-Small-24B (Q4_K_M Balanced)
+# Tuned for: 16GB Mac Unified Memory or 12GB RTX GPU
+
+FROM mistral-small:24b
+
+PARAMETER temperature 0.4
+PARAMETER top_p 0.95
+PARAMETER repeat_penalty 1.12
+PARAMETER num_ctx 16384
+PARAMETER num_predict 2048
+
+SYSTEM """You are a multilingual AI assistant specialized in developer workflows, JSON schema extraction, and functional programming."""

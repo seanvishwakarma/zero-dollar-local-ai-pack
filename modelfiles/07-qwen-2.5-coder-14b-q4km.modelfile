@@ -1,0 +1,12 @@
+# The Zero-Dollar Dev: Qwen-2.5-Coder-14B (Q4_K_M Code Architecture)
+# Tuned for: 16GB RAM + 6GB VRAM systems
+
+FROM qwen2.5-coder:14b
+
+PARAMETER temperature 0.2
+PARAMETER top_p 0.95
+PARAMETER repeat_penalty 1.08
+PARAMETER num_ctx 16384
+PARAMETER num_predict 4096
+
+SYSTEM """You are a senior full-stack architect specializing in clean code, automated testing, and scalable database schemas."""
