@@ -1,8 +1,22 @@
 # The Zero-Dollar Local AI Companion Pack (2026 Edition)
-**Publisher:** The Zero-Dollar Dev (`https://thezerodollardev.blogspot.com/`)  
-**Companion to:** *The Zero-Dollar Local AI Guide: How to Run DeepSeek-R1 & Llama 3.3 on 8GB/16GB RAM*
 
-Thank you for supporting independent developer research! This companion pack provides ready-to-import Ollama Modelfiles, memory allocation tables, tuning scripts, and benchmark utilities to get maximum inference speed on consumer hardware.
+[![Blog](https://img.shields.io/badge/Blog-The%20Zero--Dollar%20Dev-38bdf8?style=for-the-badge)](https://thezerodollardev.blogspot.com/)
+[![Ko-fi Shop](https://img.shields.io/badge/Ko--fi-Get%20Pack%20%241-ff5e5b?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/s/124024c020)
+[![PayPal](https://img.shields.io/badge/PayPal-Tip%20%241-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://www.paypal.com/paypalme/seanvishwakarma/1USD)
+
+**Publisher:** [The Zero-Dollar Dev](https://thezerodollardev.blogspot.com/)  
+**Companion to:**
+- [The Zero-Dollar Local AI Guide: How to Run DeepSeek-R1 & Llama 3.3 on 8GB/16GB RAM](https://thezerodollardev.blogspot.com/2026/11/the-zero-dollar-local-ai-guide-how-to.html)
+- [The Zero-Dollar AI Coding Setup: How to Replace GitHub Copilot & Cursor with DeepSeek-R1 in VS Code](https://thezerodollardev.blogspot.com/2026/11/the-zero-dollar-ai-coding-setup-how-to.html)
+- [The Zero-Dollar Production Stack: How to Build, Deploy & Host Full-Stack Web Apps for $0 in 2026](https://thezerodollardev.blogspot.com/2026/11/the-zero-dollar-production-stack-how-to.html)
+
+---
+
+## ☕ Support Independent $0 Developer Research
+If this project helped you cancel your $20/month AI subscriptions or avoid cloud bills, consider supporting our ongoing benchmark hardware lab:
+- ⚡ **[Get the $1.00 Companion Pack on Ko-fi (Instant ZIP Download)](https://ko-fi.com/s/124024c020)**
+- 💳 **[Direct $1.00 PayPal Tip (Instant Settlement)](https://www.paypal.com/paypalme/seanvishwakarma/1USD)**
+- ☕ **[Creator Profile on Ko-fi (@thezerodollardev)](https://ko-fi.com/thezerodollardev)**
 
 ---
 
@@ -12,6 +26,7 @@ Thank you for supporting independent developer research! This companion pack pro
    - Pre-tuned parameters (`temperature`, `top_p`, `repeat_penalty`, `num_ctx`)
    - Custom developer system prompts for coding, reasoning, and technical analysis
    - Flash Attention and KV-cache optimizations pre-configured
+   - Includes: DeepSeek-R1 (Q4/Q5), Qwen 2.5 Coder (1.5B/7B/14B), Llama 3.3 70B, Phi-4, Gemma 2, and Command-R.
 2. **`cheatsheet/vram-matrix-2026.md`**
    - Precise VRAM calculations for 8GB, 16GB, 24GB, and 32GB systems
    - Context window expansion limits (4k vs 16k vs 32k tokens)
@@ -37,7 +52,15 @@ ollama run zero-deepseek-r1
 
 ---
 
-## ☕ Support & Future Updates
-- **Blog:** [The Zero-Dollar Dev](https://thezerodollardev.blogspot.com/)
-- **Ko-fi:** [ko-fi.com/thezerodollardev](https://ko-fi.com/thezerodollardev)
-- **Direct PayPal Support:** [paypal.me/seanvishwakarma](https://www.paypal.com/paypalme/seanvishwakarma)
+## 💻 VS Code Setup with Continue.dev
+
+To replace GitHub Copilot and Cursor with 100% offline local models in VS Code:
+1. Install the **Continue** extension in VS Code.
+2. Configure `tabAutocompleteModel` to `qwen2.5-coder:1.5b-base` (for 118ms completions).
+3. Configure chat reasoning to `deepseek-r1:7b` or `deepseek-r1:14b`.
+4. Read our full step-by-step tutorial: [The Zero-Dollar AI Coding Setup](https://thezerodollardev.blogspot.com/2026/11/the-zero-dollar-ai-coding-setup-how-to.html)
+
+---
+
+## 📄 License
+MIT License - Free for individual developers and teams. If you find it valuable, [consider buying us a coffee on Ko-fi](https://ko-fi.com/s/124024c020)!
