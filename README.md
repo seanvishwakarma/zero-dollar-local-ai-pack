@@ -6,6 +6,8 @@
 
 **Publisher:** [The Zero-Dollar Dev](https://thezerodollardev.blogspot.com/)  
 **Companion to:**
+- [Qwen 2.5 Coder: The Complete Free Local Setup That Outperforms GitHub Copilot in VS Code](https://thezerodollardev.blogspot.com/2026/11/qwen-25-coder-complete-free-local-setup.html)
+- [How to Run DeepSeek-R1 Distill on 8GB RAM: Exact Ollama Flags That Work](https://thezerodollardev.blogspot.com/2026/11/how-to-run-deepseek-r1-distill-on-8gb.html)
 - [The Zero-Dollar Local AI Guide: How to Run DeepSeek-R1 & Llama 3.3 on 8GB/16GB RAM](https://thezerodollardev.blogspot.com/2026/11/the-zero-dollar-local-ai-guide-how-to.html)
 - [The Zero-Dollar AI Coding Setup: How to Replace GitHub Copilot & Cursor with DeepSeek-R1 in VS Code](https://thezerodollardev.blogspot.com/2026/11/the-zero-dollar-ai-coding-setup-how-to.html)
 - [The Zero-Dollar Production Stack: How to Build, Deploy & Host Full-Stack Web Apps for $0 in 2026](https://thezerodollardev.blogspot.com/2026/11/the-zero-dollar-production-stack-how-to.html)
@@ -65,3 +67,4 @@ To replace GitHub Copilot and Cursor with 100% offline local models in VS Code:
 
 ## 📄 License
 MIT License - Free for individual developers and teams. If you find it valuable, [consider buying us a coffee on Ko-fi](https://ko-fi.com/s/124024c020)!
+
